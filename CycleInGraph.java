@@ -3,14 +3,7 @@ import java.util.*;
 public class CycleInGraph {
 
     // **************  UNDIRECTED GRAPH CYCLE DETECTION  *****************
-    /**
-     * DFS helper for undirected graph.
-     * @param node   current node
-     * @param parent parent of current node
-     * @param vis    visited array
-     * @param adj    adjacency list
-     * @return true if cycle found, false otherwise
-     */
+s
     boolean dfsUndirected(int node, int parent, boolean[] vis, List<List<Integer>> adj) {
         vis[node] = true; 
 
