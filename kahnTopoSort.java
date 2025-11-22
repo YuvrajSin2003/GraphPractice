@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class kahnTopoSort {
-
+    
     public List<Integer> kahn(int numNode, int[][] edges) {
         List<List<Integer>> adj = new ArrayList<>();
         for (int i = 0; i < numNode; i++) {
